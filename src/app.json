@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "path": "pages/index",
+      "config": {
+        "navigationBarTitleText": "首页",
+        "usingComponents": {
+          "button": "/static/vant/button/index"
+        }
+      }
+    },
+    {
+      "path": "pages/counter",
+      "config": {
+        "navigationBarTitleText": "计数"
+      }
+    },
+    {
+      "path": "packageA/logs",
+      "subPackage": true,
+      "config": {
+        "navigationBarTitleText": "查看启动日志"
+      }
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/counter",
+        "text": "计算"
+      }
+    ],
+    "selectedColor": "#f59aaa",
+    "borderStyle":"white"
+  }
+}
